@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}     
+
+.imgUninove{
+    background-image: url('../img/Uninove.png');
+    background-repeat: no-repeat;
+    background-position: 600px top;
+    background-size: 280px 150px;
+    margin-left:280px; 
+    padding:100px
+
+}

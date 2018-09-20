@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style>
+
+            .container {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-image:url(img/fundo.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+
+            }
+            .box {
+                width: 300px;
+                height: 300px;
+                background: #fff;
+                border-radius: 8px;
+                background:#FFFFCC;
+
+
+            }
+            body {
+                margin: 0px;
+            }
+
+            .foto{
+
+                width:100px; 
+                height:100px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+
+            
+
+            .p{
+                width:255px;
+                bottom:500px;
+                position: absolute;              
+                color:#FFFFCC;
+                text-align: center;
+                font-size: 45px;
+            }
+
+        </style>
+
+        <meta charset="UTF-8">
+        <title>menu</title>
+    </head>
+    <body>
+        <div class="container">          
+            <p class="p"></p>
+            <div class="box"><br><br>
+                <a href="cadastrar.jsp"><img  class="foto" src="img/add.png"  alt="Cadastrar" title="Cadastrar"/></a><br><br>
+                <a href="listar.jsp"><img class="foto" src="img/listar.png"  alt="Listar" title="Listar"/></a><br><br>
+            </div>
+        </div>
+    </body>
+</html>
